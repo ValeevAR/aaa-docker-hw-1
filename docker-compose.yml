@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  server :
+    image: "valeevar/server:0.0.1"
+    
+  prometheus:
+    image: "grafana/grafana"
+
+  grafana:
+    image: "prom/prometheus"
